@@ -14,13 +14,16 @@ class instrumentSeeder extends Seeder
     public function run()
     {
         $faker = Faker::create();
-        $products = [];
+        $instrument = [];
 
         foreach (range (1,20) as $index){
-            $products[] = [
-                'brand' => $faker->name,
-                'type' => $faker->name,
+            $instrument[] = [
+                'GuitarID'=> $faker->randomDigit(1) * 20,
+                'type'=> $faker->name,
+                'created_at'=>now(),
+                'updated_at'=>now(),
             ];
         }
+        DB::table('guitar')->insert($instrument);
     }
 }

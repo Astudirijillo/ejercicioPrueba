@@ -15,7 +15,7 @@ class CreateInstrumentTable extends Migration
     {
         Schema::create('instrument', function (Blueprint $table) {
             $table->id();
-            $table->unsignedInteger('idGuitar')->constrained('guitar');
+            $table->unsignedInteger('GuitarID')->constrained('guitar');
             $table->string('type', 50);
             $table->timestamps();
         });

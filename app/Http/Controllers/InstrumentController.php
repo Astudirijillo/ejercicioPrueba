@@ -25,4 +25,24 @@ class InstrumentController extends Controller
            'type'=>'required|min:5|max:50',
         ]);
     }
+
+    public function store()
+    {
+        $data = $this->validateRequest();
+        $instrument = Instrument::create($data);
+        return new InstrumentResource($instrument);
+    }
+
+    public function update(Instrument $instrument)
+    {
+        $data = $this->validateRequest();
+        $instrument = Instrument::create($data);
+        return new InstrumentResource($instrument);
+    }
+
+    public function destroy(Instrument $instrument)
+    {
+        $instrument -> delete();
+        return response()->noContent();
+    }
 }
