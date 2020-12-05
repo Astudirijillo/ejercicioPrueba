@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d159cdba-4bc3-4370-8cc3-0b7968694b07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InstrumentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InstrumentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Resources/InstrumentResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/InstrumentResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Instrument.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Instrument.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_04_224126_create_instrument_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_04_224126_create_instrument_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/guitarSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/guitarSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/instrumentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/instrumentSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,8 +173,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607121357563</updated>
-      <workItem from="1607121375306" duration="8969000" />
+      <workItem from="1607121375306" duration="9167000" />
     </task>
+    <task id="LOCAL-00001" summary="Correcciones finales prueba">
+      <created>1607130412284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607130412284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correcciones finales prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcciones finales prueba" />
   </component>
 </project>

@@ -9,5 +9,5 @@ use Illuminate\Database\Eloquent\Model;
 class Instrument extends Model
 {
     use HasFactory;
-    protected $fillable = ['idGuitar', 'type'];
+    protected $fillable = ['guitarID', 'type'];
 }

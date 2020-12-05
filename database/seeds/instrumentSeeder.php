@@ -18,7 +18,7 @@ class instrumentSeeder extends Seeder
 
         foreach (range (1,20) as $index){
             $instrument[] = [
-                'GuitarID'=> $faker->randomDigit(1) * 20,
+                'guitarID'=> $faker->randomDigit(1) * 20,
                 'type'=> $faker->name,
                 'created_at'=>now(),
                 'updated_at'=>now(),

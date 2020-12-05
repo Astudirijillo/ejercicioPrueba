@@ -16,7 +16,7 @@ class InstrumentResource extends JsonResource
     {
         return [
             'id'=>$this->id,
-            'GuitarID'=>$this->GuitarID,
+            'guitarID'=>$this->guitarID,
             'type'=>$this->type,
         ];
     }
